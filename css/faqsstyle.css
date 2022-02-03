@@ -1,0 +1,32 @@
+.accordion {
+  background-color: #BDB76B;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Fraunces', serif;
+  font-size: 16px;
+}
+
+.active, .accordion:hover {
+  background-color: #DEB887;
+}
+
+.panel {
+  width: 97.3%;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  font-family: 'Mirza', cursive;
+  font-size: 20px;
+  padding: 25px;
+}
+
+h2 {
+	font-family: 'Staatliches', cursive;
+	font-size: 30px;
+}

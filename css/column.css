@@ -1,0 +1,40 @@
+.leftcolumn {   
+  float: center;
+  padding-left: 10px;
+  position: center;
+}
+.leftcolumn h2{
+	font-family: 'Gorditas', cursive;
+}
+.rightcolumn {
+  float: left;
+  background-color: white;
+  width: 50%;
+  height: 100px;
+  font-family: Monaco;
+  font-size: 15px;
+  padding-top: 10px;
+  
+}
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+  width: none;
+}
+.rightcolumn:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.section{
+	background-color: #ABA3A7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:40px;
+	padding-right:40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}

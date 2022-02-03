@@ -1,0 +1,28 @@
+.column {   
+  float: left;
+  width: 100%;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.card h2{
+	color: black;
+	font-size: 30px;
+	
+}
+.card p{
+	color: black;
+	font-family: Arial;
+	padding-left: 100px;
+	padding-right:100px;
+	text-align: justify;
+	line-height: 1cm;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  position: center;
+}

@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	text-align: center;
+}
+.hero-image{
+	background-image: linear-gradient(rgba(10, 5, 0, 0.5), rgba(10, 5, 0, 0.5)), url("photo4.jpeg");
+	background-color: red;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.hero-text{
+	color: black;
+	text-align: center;
+}
+.hero-text h1{
+	font-size: 65px;
+	font-weight: 0;
+	font-family: 'Coda Caption', sans-serif;
+	color: #F8AC30;
+	text-shadow: 2px 2px white;
+}
+.hero-text p{
+	font-size: 40px;
+	font-weight: 0;
+	line-height: 10px;
+	font-family: 'Yusei Magic', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+.hero-btn{
+	text-decoration: none;
+	color: white;
+	background: #643B0F;
+	padding: 20px 25px;
+	border-radius: 5px;
+	margin-top: 5px;
+	display: inline-block;
+}
+.hero-btn:hover{
+	background: #D7A46E;
+	color: #643B0F;
+}
+

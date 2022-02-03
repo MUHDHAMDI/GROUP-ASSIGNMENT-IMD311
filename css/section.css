@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	padding: 2px;
+	text-align: center;
+}
+
+header {
+	padding: 5px;
+	background: #FFC0CB;
+	border-radius: 10px;
+	border-top: 2px solid #483D8B;
+	border-bottom: 2px solid #483D8B;
+}
+
+section{
+	width: 98%;
+	height: 700px;
+	background: white;
+	border-left: 3px solid #FFFF00;
+	border-right: 3px solid #FFFF00;
+}
+
+.main * {
+	border-radius: 10px;
+}
+.main {
+	margin: 10px 0px;
+}
+
+.main:: after {
+	content: "";
+	clear: both;
+	display: table;
+}
