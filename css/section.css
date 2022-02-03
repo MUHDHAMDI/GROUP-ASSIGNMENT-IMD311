@@ -10,18 +10,18 @@ body{
 
 header {
 	padding: 5px;
-	background: #FFC0CB;
+	background: lightblue;
 	border-radius: 10px;
-	border-top: 2px solid #483D8B;
-	border-bottom: 2px solid #483D8B;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 section{
 	width: 98%;
 	height: 700px;
 	background: white;
-	border-left: 3px solid #FFFF00;
-	border-right: 3px solid #FFFF00;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
 }
 
 .main * {
